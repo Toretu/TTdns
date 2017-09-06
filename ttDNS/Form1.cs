@@ -25,20 +25,28 @@ namespace ttDNS
         public void sjekkIP()
         {
             string dnsName = domeneTxt.Text;
-            IPAddress[] addresslist = Dns.GetHostAddresses(dnsName);
-
-            foreach (IPAddress theaddress in addresslist)
+            try
             {
-                IPaddLbl.Text += theaddress.ToString() + System.Environment.NewLine;
-                // Console.WriteLine(theaddress.ToString());
-               
+                IPAddress[] addresslist = Dns.GetHostAddresses(dnsName);
+                foreach (IPAddress theaddress in addresslist)
+                {
+                    IPaddLbl.Text += theaddress.ToString() + System.Environment.NewLine;
+                    // Console.WriteLine(theaddress.ToString());
 
+
+                }
+                IPAddress[] address2 = NsLookup(dnsName, dnsServerTxt.ToString());
+                foreach (IPAddress theaddress in address2)
+                {
+                    nsLbl.Text += theaddress.ToString() + System.Environment.NewLine;
+                }
             }
-            IPAddress[] address2 = NsLookup(dnsName, dnsServerTxt.ToString());
-            foreach (IPAddress theaddress in address2)
+            catch
             {
-                nsLbl.Text += theaddress.ToString() + System.Environment.NewLine;
+                nsLbl.Text = "DNS name not found"+ System.Environment.NewLine;
+                return;
             }
+            
             interval++;
             if (interval == 15)
             {
