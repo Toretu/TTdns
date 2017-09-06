@@ -1,0 +1,8 @@
+D:\bitbucket\TTdns\ttDNS\ttDNS\bin\Release\ttDNS.exe.config
+D:\bitbucket\TTdns\ttDNS\ttDNS\bin\Release\ttDNS.exe
+D:\bitbucket\TTdns\ttDNS\ttDNS\bin\Release\ttDNS.pdb
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Release\ttDNS.Form1.resources
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Release\ttDNS.Properties.Resources.resources
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Release\ttDNS.csproj.GenerateResource.Cache
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Release\ttDNS.exe
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Release\ttDNS.pdb

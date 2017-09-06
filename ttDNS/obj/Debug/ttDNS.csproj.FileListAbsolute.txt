@@ -1,0 +1,9 @@
+D:\bitbucket\TTdns\ttDNS\ttDNS\bin\Debug\ttDNS.exe.config
+D:\bitbucket\TTdns\ttDNS\ttDNS\bin\Debug\ttDNS.exe
+D:\bitbucket\TTdns\ttDNS\ttDNS\bin\Debug\ttDNS.pdb
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Debug\ttDNS.csprojResolveAssemblyReference.cache
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Debug\ttDNS.Form1.resources
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Debug\ttDNS.Properties.Resources.resources
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Debug\ttDNS.csproj.GenerateResource.Cache
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Debug\ttDNS.exe
+D:\bitbucket\TTdns\ttDNS\ttDNS\obj\Debug\ttDNS.pdb
